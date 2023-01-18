@@ -1,5 +1,5 @@
 # DPFL
-This is the official implementation of our paper [A Fine-grained Differentially Private Federated Learning against Leakage from Gradients](https://ieeexplore.ieee.org/abstract/document/9627872), accepted by IEEE Internet of Things Journal, 2021. This research project is developed based on Python 3 and Pytorch, created by [Linghui Zhu](https://github.com/zlh-thu).
+This is the official implementation of our paper [A Fine-grained Differentially Private Federated Learning against Leakage from Gradients](https://ieeexplore.ieee.org/abstract/document/9627872), accepted by IEEE Internet of Things Journal, 2021. This research project is developed based on Python 3 and Pytorch.
 
 
 ## Reference
