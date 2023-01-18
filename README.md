@@ -57,4 +57,3 @@ Load a updated client model and add noised.
 python add_noise.py --resume_path=./ckpt/path_to_updated_local_model.pt --dataset=dataset_name 
 ```
 
-
