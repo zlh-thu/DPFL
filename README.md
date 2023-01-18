@@ -58,6 +58,6 @@ python add_noise.py --resume_path=./ckpt/path_to_updated_local_model.pt --datase
 ```
 
 ## Defense against DLG
-The Defense against [DLG](https://github.com/mit-han-lab/dlg) with a euclidean distance as the loss function. The noise is injected into all the layers of the shared gradients with DPFL. The adversary tries to recover local data from the gradients and the leakage can not be preformed.
+The defense against [DLG](https://github.com/mit-han-lab/dlg) with a euclidean distance as the loss function. The noise is injected into all the layers of the shared gradients with DPFL. The adversary tries to recover local data from the gradients and the leakage can not be preformed.
 ![Result](https://github.com/zlh-thu/DPFL/blob/main/img/result.png)
 
