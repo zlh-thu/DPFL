@@ -18,7 +18,32 @@ If our work or this repo is useful for your research, please cite our paper as f
 ```
 
 ## Pipeline
-![Pipeline](https://github.com/zlh-thu/StealingVerification/blob/main/pipeline.png)
+![Pipeline](https://github.com/zlh-thu/DPFL/blob/main/img/pipeline.png)
 
 
-# PoGZ
+## Requirements
+
+To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
+Make sure the directory follows:
+```File Tree
+stealingverification
+├── data
+│   ├── cifar10
+│   └── ...
+├── ckpt 
+│   
+├── pogz
+│   
+├── model
+|
+```
+
+
+## PoGZ
+Load a pretrained local model and calculate the PoGZ of each layer with the local valid dataset.
+
+
