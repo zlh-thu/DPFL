@@ -45,5 +45,16 @@ stealingverification
 
 ## PoGZ
 Load a pretrained local model and calculate the PoGZ of each layer with the local valid dataset.
+The PoGZ
+```
+python get_pogz.py --dataset=dataset_name --resume_path=./ckpt/path_to_pretrained_model.pt --local_val_dataset_path=./path_to_local_val_dataset/
+```
+The result will be saved in ./pogz/ .
+
+## Add noise on client model
+Load a updated client model and add noised.
+```
+python add_noise.py --resume_path=./ckpt/path_to_updated_local_model.pt --dataset=dataset_name 
+```
 
 
